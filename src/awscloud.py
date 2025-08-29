@@ -5,7 +5,7 @@ from prompts import get_system_prompt
 
 client = OpenAI(api_key=st.secrets.OPENAI_API_KEY)
 
-st.title("🔮 AWS Cloud Practitioner")
+st.title("🔮 AWS Certified Cloud Practitioner")
 
 # Initialize the chat messages history
 if "messages" not in st.session_state:
